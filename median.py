@@ -1,6 +1,7 @@
 """Median calculator."""
 """ENTER YOUR SOLUTION HERE!"""
 def medianfunc(numbers = []):
+    numbers.sort()
     index = len(numbers)/2
     num = int(index)
     if len(numbers)%2:
